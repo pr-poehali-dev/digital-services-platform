@@ -17,10 +17,10 @@ const services = [
     price: "15 ₽"
   },
   {
-    icon: "Palette",
-    title: "UI/UX Дизайн",
-    description: "Проектирование интуитивных интерфейсов и пользовательского опыта",
-    price: "от 30 000 ₽"
+    icon: "Clock",
+    title: "Покупка рекламу на 3 часа",
+    description: "Ваша реклама в моем канале на 3 часа",
+    price: "25 ₽"
   },
   {
     icon: "Rocket",
