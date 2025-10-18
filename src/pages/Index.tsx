@@ -86,9 +86,9 @@ const pricingPlans = [
 
 const testimonials = [
   {
-    name: "Алексей Петров",
+    name: "Finem",
     role: "CEO, TechStart",
-    avatar: "https://api.dicebear.com/7.x/avataaars/svg?seed=Alex",
+    avatar: "https://api.dicebear.com/7.x/avataaars/svg?seed=Finem",
     text: "Отличная работа! Команда разработала нам сайт за 2 недели. Качество на высоте, все пожелания учтены.",
     rating: 5
   },
