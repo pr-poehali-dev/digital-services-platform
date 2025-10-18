@@ -8,7 +8,7 @@ const services = [
     icon: "User",
     title: "Покупка аватарок",
     description: "Создание аватарок на ваш вкус и цвет, могу предложить свой фон и персонажей",
-    price: "от 500 ₽"
+    price: "30 ₽"
   },
   {
     icon: "Smartphone",
