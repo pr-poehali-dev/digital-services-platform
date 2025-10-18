@@ -89,7 +89,7 @@ const testimonials = [
     name: "Finem",
     role: "CEO, TechStart",
     avatar: "https://api.dicebear.com/7.x/avataaars/svg?seed=Finem",
-    text: "Отличная работа! Команда разработала нам сайт за 2 недели. Качество на высоте, все пожелания учтены.",
+    text: "Сделал качественную аватарку мне понравилось",
     rating: 5
   },
   {
