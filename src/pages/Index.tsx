@@ -11,10 +11,10 @@ const services = [
     price: "30 ₽"
   },
   {
-    icon: "Smartphone",
-    title: "Мобильные приложения",
-    description: "Разработка нативных и кроссплатформенных приложений для iOS и Android",
-    price: "от 80 000 ₽"
+    icon: "Megaphone",
+    title: "Реклама на час",
+    description: "Рекламирую то что вам нужно в своем канале",
+    price: "15 ₽"
   },
   {
     icon: "Palette",
