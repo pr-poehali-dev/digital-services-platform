@@ -100,10 +100,10 @@ const testimonials = [
     rating: 5
   },
   {
-    name: "Дмитрий Иванов",
+    name: "МЕТЕОРИТ STUDIO",
     role: "Основатель, StartupHub",
-    avatar: "https://api.dicebear.com/7.x/avataaars/svg?seed=Dmitry",
-    text: "Профессиональный подход к делу. Создали мобильное приложение точно в срок и в рамках бюджета.",
+    avatar: "https://api.dicebear.com/7.x/avataaars/svg?seed=Meteorit",
+    text: "У меня уже более 25+ отзывов! Посмотреть можно написав мне в тг @Nekitg",
     rating: 5
   }
 ];
