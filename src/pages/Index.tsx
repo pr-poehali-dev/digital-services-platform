@@ -93,10 +93,10 @@ const testimonials = [
     rating: 5
   },
   {
-    name: "Мария Соколова",
+    name: "Гром",
     role: "Маркетолог, Digital Pro",
-    avatar: "https://api.dicebear.com/7.x/avataaars/svg?seed=Maria",
-    text: "SEO оптимизация принесла результаты уже через месяц. Трафик вырос в 3 раза. Рекомендую!",
+    avatar: "https://api.dicebear.com/7.x/avataaars/svg?seed=Grom",
+    text: "Купил приват канал, все честно без обмана",
     rating: 5
   },
   {
