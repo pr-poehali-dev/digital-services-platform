@@ -121,7 +121,6 @@ export default function Index() {
           </div>
           <nav className="hidden md:flex items-center gap-6">
             <a href="#services" className="hover:text-primary transition-colors">Услуги</a>
-            <a href="#pricing" className="hover:text-primary transition-colors">Прайс</a>
             <a href="#reviews" className="hover:text-primary transition-colors">Отзывы</a>
             <Button className="bg-primary text-primary-foreground hover:bg-primary/90 glow-border">
               Связаться
@@ -176,55 +175,6 @@ export default function Index() {
                 </CardHeader>
                 <CardContent>
                   <p className="text-2xl font-bold text-primary">{service.price}</p>
-                </CardContent>
-              </Card>
-            ))}
-          </div>
-        </section>
-
-        <section id="pricing" className="container mx-auto px-4 py-20">
-          <div className="text-center mb-12">
-            <h3 className="text-3xl md:text-4xl font-bold mb-4">Тарифы и <span className="text-primary">цены</span></h3>
-            <p className="text-muted-foreground text-lg">Выберите подходящий план для вашего проекта</p>
-          </div>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-6xl mx-auto">
-            {pricingPlans.map((plan, index) => (
-              <Card 
-                key={index}
-                className={`bg-card/50 backdrop-blur border-primary/20 relative ${
-                  plan.popular ? 'border-primary glow-border scale-105' : ''
-                }`}
-              >
-                {plan.popular && (
-                  <Badge className="absolute -top-3 left-1/2 -translate-x-1/2 bg-primary text-primary-foreground">
-                    Популярный
-                  </Badge>
-                )}
-                <CardHeader className="text-center">
-                  <CardTitle className="text-2xl mb-2">{plan.name}</CardTitle>
-                  <div className="mb-4">
-                    <span className="text-4xl font-bold text-primary">{plan.price}</span>
-                    <span className="text-muted-foreground"> ₽/{plan.period}</span>
-                  </div>
-                </CardHeader>
-                <CardContent className="space-y-4">
-                  <ul className="space-y-3">
-                    {plan.features.map((feature, idx) => (
-                      <li key={idx} className="flex items-start gap-2">
-                        <Icon name="Check" className="text-primary mt-0.5 flex-shrink-0" size={20} />
-                        <span className="text-sm">{feature}</span>
-                      </li>
-                    ))}
-                  </ul>
-                  <Button 
-                    className={`w-full ${
-                      plan.popular 
-                        ? 'bg-primary text-primary-foreground hover:bg-primary/90' 
-                        : 'bg-muted hover:bg-muted/80'
-                    }`}
-                  >
-                    Выбрать план
-                  </Button>
                 </CardContent>
               </Card>
             ))}
