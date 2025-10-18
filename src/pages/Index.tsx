@@ -156,6 +156,7 @@ export default function Index() {
 
         <section id="services" className="container mx-auto px-4 py-20">
           <div className="text-center mb-12">
+            <p className="text-lg mb-4 text-primary glow-text">Покупка: напишите в телеграм @Nekitg</p>
             <h3 className="text-3xl md:text-4xl font-bold mb-4">Наши <span className="text-primary">услуги</span></h3>
             <p className="text-muted-foreground text-lg">Полный спектр цифровых решений для вашего бизнеса</p>
           </div>
