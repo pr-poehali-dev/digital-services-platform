@@ -5,10 +5,10 @@ import Icon from "@/components/ui/icon";
 
 const services = [
   {
-    icon: "Code",
-    title: "Разработка сайтов",
-    description: "Создание современных веб-приложений с использованием последних технологий",
-    price: "от 50 000 ₽"
+    icon: "User",
+    title: "Покупка аватарок",
+    description: "Создание аватарок на ваш вкус и цвет, могу предложить свой фон и персонажей",
+    price: "от 500 ₽"
   },
   {
     icon: "Smartphone",
